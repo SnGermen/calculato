@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>colculator</title>
+    <link rel="stylesheet" href="curwa.css" />
+    <script src="man.js"></script>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="colculator">
+        <input id="userInput" placeholder="put yours numbers lil nigga" />
+        <br />
+        <button class="btn1 btn" onclick="press(1)">1</button>
+        <button class="btn2 btn" onclick="press(2)">2</button>
+        <button class="btn3 btn" onclick="press(3)">3</button>
+        <button class="btnPlus btn" onclick="press('+')">+</button>
+
+        <br />
+        <button class="btn4 btn" onclick="press(4)">4</button>
+        <button class="btn5 btn" onclick="press(5)">5</button>
+        <button class="btn6 btn" onclick="press(6)">6</button>
+        <button class="btnMinus btn" onclick="press('-')">-</button>
+
+        <br />
+        <button class="btn7 btn" onclick="press(7)">7</button>
+        <button class="btn8 btn" onclick="press(8)">8</button>
+        <button class="btn9 btn" onclick="press(9)">9</button>
+        <button class="btnMultiplication btn" onclick="press('*')">*</button>
+
+        <br />
+        <button class="btnDecimal btn" onclick="press(',')">,</button>
+        <button class="btn0 btn" onclick="press(0)">0</button>
+        <button class="btnErase btn" onclick="erase()">C</button>
+        <button class="btndivision btn" onclick="press('/')">/</button>
+        <br />
+        <button class="btnEqual" onclick="press('=')">=</button>
+        <!-- erase - Стиреть. Здесь мы создали структурно кнопки -->
+      </div>
+    </div>
+  </body>
+</html>
